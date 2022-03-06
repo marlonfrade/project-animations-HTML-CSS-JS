@@ -1,0 +1,67 @@
+.dot {
+  position: relative;
+  overflow: hidden;
+  height: 75px;
+  width: 75px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 25px 25px;
+  margin: 25px 25px;
+  cursor: url(https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/256x256/plain/hammer.png),
+    url(foo.cur), auto;
+}
+.outerdiv {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.outerdiv {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+h1 {
+  font-family: "Kosugi", sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+img {
+  position: absolute;
+  width: auto;
+  height: 100px;
+  max-width: 100px;
+  max-height: 150px;
+  top: 100%;
+  animation: pop 1.5s infinite;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+}
+
+@keyframes pop {
+  50% {
+    top: 25%;
+  }
+}
+
+#mon1 {
+  animation-delay: 2s;
+  cursor: pointer;
+}
+
+#mon2 {
+  animation-delay: 1.5s;
+  cursor: pointer;
+}
+#mon3 {
+  animation-delay: 0.2s;
+  cursor: pointer;
+}
+#mon4 {
+  animation-delay: 5s;
+  cursor: pointer;
+}
